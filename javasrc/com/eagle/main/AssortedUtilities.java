@@ -18,8 +18,8 @@ public class AssortedUtilities {
         DistanceConverterController dcc = new DistanceConverterController();
         CurrencyConverterController ccc = new CurrencyConverterController();
         JFrame mFrame = new JFrame("Assorted Utilities");
-        mFrame.setSize(900,900);
-        mFrame.setLocation(450,450);
+        mFrame.setSize(400,200);
+        mFrame.setLocation(350,350);
         mFrame.setVisible(true);
 
         mFrame.setLayout(new GridBagLayout());

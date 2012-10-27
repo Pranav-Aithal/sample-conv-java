@@ -29,7 +29,7 @@ public class DistanceConverterPanel extends JPanel {
     private void init(){
         setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
-        setBorder(BorderFactory.createLineBorder(Color.CYAN));
+        setBorder(BorderFactory.createTitledBorder("Distance Converter"));
 
 
         gbc.fill=GridBagConstraints.HORIZONTAL;

@@ -32,7 +32,7 @@ public class CurrencyConverterPanel extends JPanel{
     }
         private void init(){
             setLayout(new GridBagLayout());
-            setBorder(BorderFactory.createLineBorder(Color.BLACK));
+            setBorder(BorderFactory.createTitledBorder("Currency Converter"));
             GridBagConstraints gbc = new GridBagConstraints();
 
             gbc.fill=GridBagConstraints.HORIZONTAL;

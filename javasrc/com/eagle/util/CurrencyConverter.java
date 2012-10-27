@@ -12,8 +12,7 @@ import javax.swing.*;
 public class CurrencyConverter {
 
     public  static float convertRsToUsd(float rs, float rsPerUsd){
-      //  JTextField jtf = new JTextField("");
-        return rs / rsPerUsd;
+        return rsPerUsd != 0.0f  ? rs / rsPerUsd : 0.0f;
     }
     public static float convertUsdToRs(float usd, float rsPerUsd){
         return usd * rsPerUsd;
